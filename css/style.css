@@ -43,11 +43,11 @@ body {
 	font-family: 'Quattrocento', serif;
 }
 ::-moz-selection {
-background:#f0bf00;
+background:#00D400;
 color:#333;
 }
 ::selection {
-background:#f0bf00;
+background:#00D400;
 color:#333;
 }
 /*---------- FORMS ----------*/
@@ -94,10 +94,12 @@ body, input, textarea {
 }
 a:link, a:visited {
 	color: #F1505A;
+	text-decoration: none;
+	outline: none;
 }
 a:hover, a:active {
 	color: #F1505A;
-	text-decoration: underline;
+	text-decoration: none;
 }
 h1, h2, h3, h4, h5, h6 {
 	font-weight: normal; /* reset default browser weight for our webfonts */
@@ -161,7 +163,7 @@ em {
 	font-family: 'Patua One', cursive;
 }
 .more-link:link, .more-link:visited {
-	color: #f0bf00;
+	color: #00D400;
 	text-transform: uppercase;
 }
 /* ---------------------------------------------------------------------------------------------------------- 
@@ -211,7 +213,7 @@ em {
 }
 .navbar .brand a:hover {
 	text-decoration: none;
-	color:#f0bf00;
+	color:#00D400;
  transition: color .15s linear;
  -webkit-transition: color .15s linear;
  -moz-transition: color .15s linear;
@@ -225,7 +227,7 @@ em {
 .navbar-inverse .navbar-inner {
 	background-repeat: repeat;
 	background-color: #0b333f;
-	border-color: #f0bf00;
+	border-color: #00D400;
 }
 .navbar-wrapper {
 	overflow:hidden;/* No fixed height, will break collapsible nav */
@@ -240,7 +242,7 @@ ul#menu-main > li > a {
 	color: #fff;
 }
 ul#menu-main > li > a:hover {
-	background: #f0bf00;
+	background: #00D400;
 	padding: 9px 15px;
 	border-radius: 3px;
 	-webkit-border-radius: 3px;
@@ -281,7 +283,7 @@ ul#menu-main > li > a:hover {
 	text-shadow: 1px 1px 1px #333333;
 }
 #headerwrap h1 span {
-	color:#f0bf00;
+	color:#00D400;
 }
 #headerwrap input[type=text] {
 	background: rgba(227, 231, 228, 1);
@@ -314,7 +316,7 @@ ul#menu-main > li > a:hover {
 	margin: 0;
 	border: 0;
 	text-transform: none;
-	background: #f0bf00 !important;
+	background: #00D400 !important;
 	border-radius: 3px;
 	-moz-border-radius: 3px;
 	-webkit-border-radius: 3px;
@@ -347,8 +349,7 @@ section.single-page h1 {
 	font-size: 2.25em; /* 36px */
 }
 #feature {
-	background: url("../img/yellow.png") repeat-x 0 0;
-	height: 406px;
+	background: url("../img/green_testimonial.png") repeat 0 0;
 	z-index: 500;
 	box-shadow: 0 5px 16px rgba(0, 0, 0, 0.3);
 	-moz-box-shadow: 0 5px 16px rgba(0, 0, 0, 0.3);
@@ -356,8 +357,7 @@ section.single-page h1 {
 }
 #feature article {
 	text-align: center;
-	margin-top: 120px;
-	max-width: 1170px;
+	margin: 120px 0;
 }
 #feature-headline {
 	font-family: 'Patua One', cursive;
@@ -453,11 +453,12 @@ section#services .align .sev_icon {
 	text-align:center;
 	margin:10px 0 20px 0;
 	font-size: 0.6em;
-	color:#F0BF00;
+	color:#00D400;
 }
 section#services .span3 {
 	background:#e9e9e9;
-	padding: 20px 0;
+	padding: 20px 0 0;
+	margin-bottom: 20px;
 	-webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
@@ -472,7 +473,7 @@ section#services .span3:hover {
 
 section#testimonials {
 	height:  647px;
-	background: url("../img/yellow_testimonial.png") repeat-x 0 0;
+	background: url("../img/green_testimonial.png") repeat 0 0;
 	padding: 0;
 	color: #e4e5e2;
 	z-index: 500;
@@ -633,7 +634,7 @@ section#team .align, section#contact .align {
 	display: block;
 	border: 0;
 	text-transform: none;
-	background: #f0bf00 !important;
+	background: #00D400 !important;
 	border-radius: 3px;
 	-moz-border-radius: 3px;
 	-webkit-border-radius: 3px;
@@ -782,7 +783,7 @@ footer p {
 	display: block;
 	border: 0;
 	text-transform: none;
-	background: #f0bf00 !important;
+	background: #00D400 !important;
 	border-radius: 3px;
 	-moz-border-radius: 3px;
 	-webkit-border-radius: 3px;
