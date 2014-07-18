@@ -166,6 +166,9 @@ em {
 	color: #00D400;
 	text-transform: uppercase;
 }
+.category-count {
+	float: right;
+}
 /* ---------------------------------------------------------------------------------------------------------- 
 03 Non-semantic ------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------------- */
@@ -400,11 +403,43 @@ section#portfolio hgroup h3 {
 section#portfolio .entry-content {
 	margin: 1em 0 2.5em;
 }
+section#portfolio .entry-content p {
+	height: 6em;
+	overflow: auto;
+}
 section#portfolio .align {
 	text-align:center;
 	margin-top:10px;
 	font-size:6em;
 }
+
+.maskI {
+	text-align:center;
+	padding:20px 0;
+	background: url("../img/top-bg.jpg") no-repeat center center;
+	height: 100px;
+	border-radius: 5px;
+}
+
+.maskI i:before {
+	position: absolute;
+	margin-left: -25px;
+	margin-top: 15px;
+	padding:0;
+}
+.maskI i {
+	display: inline-block;
+	font-size:50px;
+	width: 80px;
+	height: 80px;
+	margin-left: -10px;
+	margin-top: 5px;
+	background-color:#0b333f;
+	box-shadow: 0px 2px 5px rgba(0,0,0,.4);
+	color:white;
+	border-radius:50%;
+}
+
 /* Portfolio Image Hover */
 .mask2 img {
 	margin: 0 auto;
@@ -530,6 +565,8 @@ article .inside {
 	font-style: normal;
 	line-height: 2;
 	margin-right: 5px;
+	text-align: right;
+	margin: 0 !important;
 }
 #news h1 {
 	font-size: 3em;
@@ -538,10 +575,16 @@ article .inside {
 }
 #news h2 {
 	font-size: 21px;
-	margin-top: 24px;
-	margin-bottom: 16px;
+	margin-top: 0px;
+	margin-bottom: 10px;
 	color: #312A1E;
-	clear: right;
+}
+
+#news h2 div {
+	text-overflow: "@@";
+	height: 48px;
+	/*border: 1px solid black;*/ /*note: :todo:*/
+	overflow: hidden;
 }
 /* Team and Contact */
 
@@ -590,6 +633,12 @@ section#team .align, section#contact .align {
 .team-thumb {
 	margin-top: 26px;
 	text-align:center;
+	width: 150px;
+	height: 150px;
+	min-height: 150px;
+	max-height: 150px;
+	min-width: 150px;
+	max-width: 150px;
 }
 .job-position {
 	font-family: 'Open Sans', sans-serif;
